@@ -29,7 +29,6 @@ const Register = () => {
           withCredentials: true,
         }
       );
-      
 
       toast.success(data.message);
       setIsAuthenticated(true);
